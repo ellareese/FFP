@@ -1,0 +1,171 @@
+img {
+    width: 300px;
+}
+
+#container {
+    width: 80%;
+    margin:auto;
+    background-color: rgb(182, 210, 255);
+    border: 1px solid black;
+}
+
+#logo {
+    width: 100px;
+    float: left;
+}
+
+#title-logo {
+    float: left;
+}
+
+#header {
+    border: 1px solid black;
+    overflow: auto;
+    background-color: rgb(134, 184, 241);
+}
+
+ul {
+    list-style-type: none;
+    text-align: center;
+    margin-right: 20px;
+    padding-top: 0px;
+    margin: 10px;
+    width: 20%;
+    float: right;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-decoration: none;
+}
+
+li a:link {
+    background-color: transparent;
+    color: black;
+}
+
+li a:visited {
+    background-color: #5559b3;
+    color: black;
+}
+
+li a:hover {
+    background-color: #555555;
+    color: white;
+}
+
+li a:active {
+    background-color: #5139ca;
+    color: white;
+}
+
+#content1 {
+    padding-top: 20px;
+    overflow: auto;
+    width: 90%;
+    margin: auto;
+}
+#pic1 {
+    margin: 15px;
+    margin-left: 0px;
+    float: left;
+    padding-left: 0px;
+}
+
+#background1 {
+    text-align: justify;
+    width: 100%;
+    margin: auto;
+    margin: 15px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+#content2 {
+    overflow: auto;
+    width: 90%;
+    margin:auto;
+}
+#pic2 {
+    float: right;
+    margin: 15px;
+    margin-right: 0px;
+    padding-left: 0px;
+}
+#background2 {
+    width: 90%;
+    margin: auto;
+    text-align: justify;
+    margin: 15px;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+#content3 {
+    overflow: auto;
+    width: 90%;
+    margin:auto;
+}
+#pic3 {
+    float:left;
+    margin: 15px;
+    margin-left: 0px;
+}
+
+
+#para1 {
+    text-align: justify;
+    margin: 15px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+#content4 {
+    overflow: auto;
+    width: 90%;
+    margin:auto;
+}
+
+#pic4 {
+    float: left;
+    margin: 15px;
+    margin-left: 0px;
+}
+
+#para2 {
+    text-align: justify;
+    margin: 15px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+#content5 {
+    float: left;
+    width: 50%;
+    padding: 20px;
+    border: 1px solid black;
+    text-align: center;
+    margin: 15px;
+    background-image: url(images/background.jpg);
+}
+
+#content6 {
+    width: 50%;
+    padding: 20px;
+    border: 1px solid black;
+    text-align: center;
+    float: right;
+    margin:15px;
+    background-image: url(images/background.jpg);
+}
+
+#footer {
+    clear: left;
+    clear: right;
+    background-color: rgb(134, 184, 241);
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+    border: 1px solid black;
+}
